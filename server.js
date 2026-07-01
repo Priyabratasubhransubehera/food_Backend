@@ -13,7 +13,7 @@ import ContactRoutes from "./routes/contact.routes.js";
 const app = express();
 app.use(
     cors({
-        origin: "http://localhost:5173",
+        origin: "food-frontend-ptkt.vercel.app",
         credentials: true,
     }),
 );
