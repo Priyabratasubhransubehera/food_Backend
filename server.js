@@ -13,7 +13,7 @@ import ContactRoutes from "./routes/contact.routes.js";
 const app = express();
 app.use(
     cors({
-        origin: "https://food-frontend-ptkt-kha0ths2u-farry-land-pages-projects.vercel.app",
+        origin: "https://food-frontend-ptkt.vercel.app",
         credentials: true,
     }),
 );
